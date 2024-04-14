@@ -89,7 +89,6 @@ bool EventTriggered(f64 Interval)
     }
     return false;
 }
-
 int main()
 {
     const i32 FPS = 60;
