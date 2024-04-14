@@ -19,4 +19,7 @@ using f32 = float;
 using f64 = double;
 using string = std::string;
 
+template<typename T>
+using deque = std::deque<T>;
+
 #endif //SNAKE_TYPES_HPP
