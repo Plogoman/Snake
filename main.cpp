@@ -166,7 +166,6 @@ class Game {
             if (ElementInDeque(snake.Body[0], HeadlessBody))
             {
                 GameOver();
-                std::cout << "Touched Tail" << std::endl;
             }
         }
         void GameOver()
